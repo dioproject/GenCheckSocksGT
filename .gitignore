@@ -1,0 +1,18 @@
+# Build output
+/target
+
+# Credentials and generated proxy lists: never commit these
+*.txt
+!proxies.example.txt
+
+# Reports and local logs
+/results.json
+/results.csv
+/*.log
+
+# Local editor/OS files
+.env
+.env.*
+.idea/
+.vscode/
+Thumbs.db
